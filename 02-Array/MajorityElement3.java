@@ -22,3 +22,29 @@ public class MajorityElement3{
 
     }
 }
+
+
+numbers = [1, 6, 6, 4, 6]
+
+    ----------------------------------------------------------------
+Outer Loop
+|
+|--> val = 1
+|      Inner Loop scans:
+|      [1,6,6,4,6]
+|
+|--> val = 6
+|      Inner Loop scans:
+|      [1,6,6,4,6] overr
+|
+|--> val = 6
+|      Inner Loop scans:
+|      [1,6,6,4,6]
+|
+|--> val = 4
+|      Inner Loop scans:
+|      [1,6,6,4,6]
+|
+|--> val = 6
+|      Inner Loop scans:
+|      [1,6,6,4,6]
